@@ -70,7 +70,7 @@ export default function App() {
                 onClick={rollDice}>
                 {tenzies ? "New Game" : "Roll"}
             </button>
-            <h2>{rollNumber}</h2>
+            <h3 class="rollnumber">Roll Number: {rollNumber ? rollNumber : "0"}</h3>
         </main>
     )
 }
